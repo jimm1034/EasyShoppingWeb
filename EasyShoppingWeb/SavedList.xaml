@@ -1,0 +1,14 @@
+﻿<Window x:Class="EasyShoppingWeb.SavedList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EasyShoppingWeb"
+        mc:Ignorable="d"
+        Title="SavedList" Height="450" Width="800">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Text="Din liste blev gemt" FontSize="25" />
+        
+        <Button Click="Button_Click" Opacity="0" Margin="-293,-192,-270,-193" />
+    </Grid>
+</Window>
